@@ -7,7 +7,7 @@ import joblib
 data = pd.read_csv('data/train_data.csv')                  
 
 
-X = data[['Age', 'Account_Manager', 'Years', 'Num_Sites']] 
+X = data[['Age', 'Account_Manager', 'Years', 'Num_Sites']]        
 
 # Sélectionner la colonne cible
 y = data['Churn']
